@@ -1,1 +1,1 @@
-0 2 * * * java -XX:ReservedCodeCacheSize=512m -Xmx5632m -Xms2048m -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -ea -jar app.jar
+*/5 * * * * java -jar app.jar
